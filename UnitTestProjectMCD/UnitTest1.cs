@@ -11,8 +11,8 @@ namespace UnitTestProjectMCD
         public void MCD_2numeros_TestMethod()
         {
             int nro1 = 8; 
-            int nro2 = 6;
-            int esperado = 2;
+            int nro2 = 12;
+            int esperado = 4;
             int prueba = CalcularMCD.MCD(nro1, nro2);
             Assert.AreEqual(esperado, prueba);
         }
